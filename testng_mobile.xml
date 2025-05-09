@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Appium Demo test">
+	<listeners>
+		<listener class-name="dialer.listeners.TestListener"/>
+	</listeners>
+	<parameter name="device" value="GooglePixel4XL"/>
+	<test name="Test Dialer Application">
+		<classes>
+			<class name="dialer.tests.DialerTest" />
+		</classes>
+	</test>
+</suite>
+

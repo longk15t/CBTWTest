@@ -1,0 +1,21 @@
+{
+  "environment": "dev",
+  "browser": "chrome",
+  "implicitWait": 10,
+  "explicitWait": 10,
+  "dev": {
+    "url": "https://ctflearn.com/",
+    "username": "longk15t",
+    "password": "Abcd@123456"
+  },
+  "qa": {
+    "url": "https://ctflearn.com/",
+    "username": "longk15t",
+    "password": "Abcd@123456"
+  },
+  "staging": {
+    "url": "https://ctflearn.com/",
+    "username": "longk15t",
+    "password": "Abcd@123456"
+  }
+}
